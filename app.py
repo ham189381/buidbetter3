@@ -24,8 +24,8 @@ def get_drivers_database():
 
 #------ROUTES---------------
 
-@app.route("/index")
-def index():
+@app.route("/")
+def home():
     return  render_template("sofery.html")
 
 
